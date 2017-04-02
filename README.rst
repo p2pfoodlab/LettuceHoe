@@ -2,15 +2,17 @@
 LettuceHoe 
 ==========
 
-Python package to run segmentation on the workspace defined on an image of crops and computes a modified boustrophedon path for the tool to hoe around cultivated plants  (see the example_* files for usage). 
+Python package to run segmentation on the workspace defined on an image of crops and computes a modified boustrophedon path for the tool to hoe around cultivated plants. 
 
 ------------
 Dependencies
 ------------
-You should have numpy and the python binding to OpenCV installed. For Debian/Ubuntu.:
+
+numpy and the python binding to OpenCV. For Debian/Ubuntu:
 
 .. code:: bash
-apt-get install numpy python-opencv
+
+    apt-get install numpy python-opencv
 
 
 -------
@@ -20,15 +22,15 @@ Install
 In the source folder, run:
 
 .. code:: bash
-  python setup.py install
 
-
+    python setup.py install
 
 -------
 Example
 -------
 
 .. code:: python
+
   import lettucehoe as lh
 
   fname="data/pics/OH.jpg"
