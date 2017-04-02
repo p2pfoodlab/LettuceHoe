@@ -1,6 +1,7 @@
 *.egg
 *.egg-info
 *.tar.gz
+*.pyc
 dist
 build
 eggs
