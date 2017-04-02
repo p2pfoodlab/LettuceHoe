@@ -44,4 +44,4 @@ Example
   toolPath=lh.mod_boustrophedon(omask, im, tool_size, ws_par)
   lh.np.savetxt("data/toolPath.txt", toolPath)
 
-
+.. image:: data/pics/example.png
